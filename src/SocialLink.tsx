@@ -19,7 +19,7 @@ export default function SocialLink(props: SocialLinkProps) {
     </div>
   );
   if (!!props.url) {
-    return <a href={props.url} target="_blank" rel="noopener noreferrer">{container}</a>;
+    return <a href={props.url} target="_blank" rel="noopener noreferrer me">{container}</a>;
   } else {
     return container;
   }
