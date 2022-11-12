@@ -19,7 +19,8 @@ export default function SocialLink(props: SocialLinkProps) {
     </div>
   );
   if (!!props.url) {
-    return <a href={props.url} target="_blank" rel="noopener noreferrer me">{container}</a>;
+    const ariaLabel = `My account ${props.accountName} on ${props.siteName}`;
+    return <a href={props.url} target="_blank" rel="noopener noreferrer me" aria-label={ariaLabel}>{container}</a>;
   } else {
     return container;
   }
