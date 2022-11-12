@@ -27,6 +27,13 @@ function App() {
         url="mailto:henlo@frdnspnzr.de"
       />
       <SocialLink
+        siteName="Threema"
+        color="#04742c"
+        icon={mdiLock}
+        accountName="RH2T3YYA"
+        url="https://threema.id/RH2T3YYA"
+      />
+      <SocialLink
         siteName="Blog"
         color="#c80815"
         icon={mdiFeather}
